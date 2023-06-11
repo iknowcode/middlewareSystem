@@ -1,0 +1,11 @@
+Requirements : 
+
+We may have different modules based on functionality and all modules could based on the funcitonlity may call different middlewares, so our app should support middleware loading, we should be able to write different middlewares.
+
+There should be a functionality where we can call middlewares in common, some middlewares could be common so we need not to write again and again, we should write in once and should call
+as many times as we require within different modules.
+
+Goal is to create an application that supports different modules and different middlewares loading and execution.
+
+How can we use javascript vs PHP for above requirements.
+Implementation in js express..
